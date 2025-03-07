@@ -1,0 +1,17 @@
+[project]
+name = "notebook"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.49.0",
+    "faiss-cpu>=1.10.0",
+    "instructor>=1.7.3",
+    "llama-index-embeddings-huggingface>=0.5.2",
+    "llama-index>=0.12.23",
+    "llama-index-vector-stores-faiss>=0.3.0",
+    "sentence-transformers>=3.4.1",
+    "transformers>=4.49.0",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.9.10",
+]
