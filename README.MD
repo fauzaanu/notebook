@@ -4,6 +4,11 @@ This project implements a very lightweight Retrieval-Augmented Generation (RAG) 
 It leverages [FAISS](https://ai.meta.com/tools/faiss/) for document retrieval and a LLM for generating context-aware
 answers.
 
+> [!NOTE]
+> See [fauzaanu/markdown-crawler](https://github.com/fauzaanu/markdown-crawler) for a tool that can crawl entire websites and save their content as markdown files.
+> You can then copy the folder it generates from a website into the `notebooks` directory to query its content.
+> I also noticed that `dhivehi` text also works well with the default LLM and Embedding model.
+
 ## How It Works
 
 - **Document Retrieval:**  
